@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(6.0.0-rc1-dev-1050-geabae68ab)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
@@ -151,7 +151,7 @@
     (add_net "Net-(U2-Pad23)")
   )
 
-  (module Display_Graphics_Extra:UG-9664HDDAG01 (layer F.Cu) (tedit 5BEC95FE) (tstamp 5BEB5E34)
+  (module Display_Graphics_Extra:UG-9664HDDAG01 (layer F.Cu) (tedit 5BEC95FE) (tstamp 5CD7040A)
     (at 122.1 106.1)
     (path /5BEEAE06)
     (fp_text reference U2 (at -12.954 -22.728) (layer F.SilkS) hide
@@ -227,7 +227,7 @@
       (net 2 GND) (solder_mask_margin 0.0762))
     (pad 1 smd rect (at -7.7 -4.138 180) (size 0.35 3) (layers B.Cu B.Paste B.Mask)
       (net 25 "Net-(U2-Pad1)") (solder_mask_margin 0.0762))
-    (model "E:/Desktop/UG-9664HDDAG01 v1.step"
+    (model ${KIPRJMOD}/modules/packages3D/Display_Graphics.3dshapes/UG-9664HDDAG01.step
       (offset (xyz -2.5 8 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
